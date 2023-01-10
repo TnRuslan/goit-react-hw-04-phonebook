@@ -16,9 +16,10 @@ export const Form = ({ onSubmit }) => {
 
       case 'number':
         setNumber(e.currentTarget.value);
+        break;
 
       default:
-        break;
+        return;
     }
   };
 
